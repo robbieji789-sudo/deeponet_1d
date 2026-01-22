@@ -1,8 +1,7 @@
-/data_1d/
-/mf6_pos20/
-/mf6_rev20/
-/outputs_1D/
-/mf6_pos20/
+data_1d/
+mf6_pos20/
+mf6_rev20/
+outputs_1D/
 
 __pycache__/
 *.py[cod]
