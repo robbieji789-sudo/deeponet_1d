@@ -1,4 +1,4 @@
-# Groundwater Flow Deep Operator Emulator (PyTorch)
+# DeepOnet for Groundwater (PyTorch)
 
 本项目旨在复现论文 [Taccari et al. (2024)](https://doi.org/10.1016/j.jhydrol.2023.130551) 中基于 DeepOnet 的地下水流仿真器。
 
