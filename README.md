@@ -1,6 +1,6 @@
-# DeepOnet for Groundwater (PyTorch)
+# DeepONet for Groundwater (PyTorch)
 
-本项目旨在复现论文 [Taccari et al. (2024)](https://doi.org/10.1016/j.jhydrol.2023.130551) 中基于 DeepOnet 的地下水流仿真器。
+本项目旨在复现论文 [Taccari et al. (2024)](https://doi.org/10.1016/j.jhydrol.2023.130551) 中基于 DeepONet 的地下水流仿真器。
 
 ## 项目背景
 原论文使用 **JAX** 框架实现了 2D 抽水试验下地下水流动模拟（E1~E5），内容丰富。本项目尝试将其迁移至 **PyTorch** 框架。
