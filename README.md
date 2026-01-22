@@ -26,5 +26,7 @@ Trunk Net (主干网络)：采用了 5 层全连接层架构（宽度为 $p$）�
 3. 拟合效果对比从左至右可以看到模型性能的演进：初步修复后，预测曲线（红色虚线）已能较好地捕捉抽水漏斗的弯曲形态，与参考解（蓝色实线）高度重合。
 
 初始优化效果：
-<img src="https://github.com/user-attachments/assets/4eebfa3d-316c-4337-b3ae-dfda6fd55e8c" width="400" />
-<img src="https://github.com/user-attachments/assets/b057b700-36ee-447a-bd2b-8cf6e8ad350c" width="400" />
+
+<img src="https://github.com/user-attachments/assets/4eebfa3d-316c-4337-b3ae-dfda6fd55e8c" width="600" />
+
+<img src="https://github.com/user-attachments/assets/b057b700-36ee-447a-bd2b-8cf6e8ad350c" width="600" />
