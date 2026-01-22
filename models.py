@@ -19,16 +19,19 @@ class Vanilla_CNN_DeepONet_1D(nn.Module):
             nn.Conv1d(16, 16, 5, padding=2), nn.ReLU(), nn.AvgPool1d(2),  # 16->8
             # nn.Conv1d(16, 16, 5, padding=2), nn.ReLU(),
 
-            nn.Conv1d(16, 16, 5, padding=2), nn.ReLU(), nn.AvgPool1d(2),  # 8->4
+            nn.Conv1d(16, 64, 5, padding=2), nn.ReLU(), nn.AvgPool1d(2),  # 8->4
             # nn.Conv1d(16, 16, 5, padding=2), nn.ReLU(),
 
-            nn.Conv1d(16, 16, 5, padding=2), nn.ReLU(), nn.AvgPool1d(2),  # 4->2
+            # nn.Conv1d(16, 64, 5, padding=2), nn.ReLU(), nn.AvgPool1d(2),  # 4->2
+            # nn.Conv1d(16, 16, 5, padding=2), nn.ReLU(), nn.AvgPool1d(2),  # 4->2
             # nn.Conv1d(16, 16, 5, padding=2), nn.ReLU(),
 
-            nn.Conv1d(16, 64, 5, padding=2), nn.ReLU(), nn.AvgPool1d(2),  # 2->1
+            # nn.Conv1d(16, 64, 5, padding=2), nn.ReLU(), nn.AvgPool1d(2),  # 2->1
             nn.Flatten(),
-            nn.Linear(1 * 64, 256), nn.Tanh(),
+            nn.Linear(4 * 64, 256), nn.Tanh(),
             nn.Linear(256, 512), nn.Tanh(),
+            nn.Linear(512, 512), nn.Tanh(),
+            nn.Linear(512, 512), nn.Tanh(),
             nn.Linear(512, p), nn.Tanh()
         )
         # Trunk分支：适配一维坐标输入(输入维度=1)

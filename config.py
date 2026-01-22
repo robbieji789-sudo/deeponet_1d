@@ -20,4 +20,4 @@ class Config:
     LR = 1e-4
     EPOCHS = 5000
     SPLIT = 0.8
-    P_DIM = 150  # DeepONet 的基数 p
+    P_DIM = 300  # DeepONet 的基数 p

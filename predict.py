@@ -223,6 +223,6 @@ def evaluate_and_plot_1d(folder_path, plot_sample_indices=[0, 1, 2]):
 
 if __name__ == "__main__":
     # 替换为你的模型输出文件夹路径
-    TARGET_DIR = r"F:\0projects\deeponet_1d\outputs_1D\E1_1D_Vanilla_0122_1558"
+    TARGET_DIR = r"F:\0projects\deeponet_1d\outputs_1D\E1_1D_Vanilla_0122_1658"
     # 绘制测试集前3个样本
     evaluate_and_plot_1d(TARGET_DIR, plot_sample_indices=[0, 1, 2])
