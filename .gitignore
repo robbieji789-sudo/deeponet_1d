@@ -2,3 +2,7 @@
 /mf6_pos20/
 /mf6_rev20/
 /outputs_1D/
+/mf6_pos20/
+
+__pycache__/
+*.py[cod]
